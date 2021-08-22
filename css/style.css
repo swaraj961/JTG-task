@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+:root {
+  --primary-color: #8c30f5;
+  --text-color-heading: #18191f;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Rubik";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 72px;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 170px;
+}
+
+.navbar .container .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.navbar .container .left a {
+  text-decoration: none;
+  margin: 0 13px;
+  font-family: Inter;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18191f;
+}
+
+.navbar .container .left .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .container .left .logo .logo-img {
+  height: 34px;
+  width: 34px;
+  background: url("/images/nav/logo.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.navbar .container .left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 90px;
+}
+
+.navbar .container .left ul li {
+  height: 100%;
+  list-style-type: none;
+}
+
+.navbar .container .right {
+  height: 100%;
+}
+
+.navbar .container .right .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.navbar .container .right .img-container .img1 {
+  height: 100%;
+  width: 134px;
+  background: url("/images/nav/play-download.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 15px;
+}
+
+.navbar .container .right .img-container .img2 {
+  height: 100%;
+  width: 134px;
+  background: url("/images/nav/apple-download.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 112px 170px;
+}
+
+.hero .container .right {
+  height: 640px;
+  min-width: 350px;
+  background: url("/images/nav/Phone-Mockup.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.hero .container .left {
+  margin: 80px 0;
+}
+
+.hero .container .left h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-family: Inter;
+  font-size: 62px;
+  line-height: 98px;
+  color: #18191f;
+}
+
+.hero .container .left a {
+  display: inline-block;
+  padding: 12px 32px;
+  background: #8c30f5;
+  border-radius: 6px;
+  margin: 32px 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.feature-section .container {
+  padding: 112px 170px;
+}
+
+.feature-section .container h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #18191f;
+}
+
+.feature-section .container p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 540px;
+  line-height: 32px;
+  text-align: center;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.feature-section .container .feature-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feature-section .container .feature-list-container .card {
+  width: 33.3%;
+  margin: 30px 0;
+  padding: 0 10px;
+}
+
+.feature-section .container .feature-list-container .card .img {
+  height: 32px;
+  width: 32px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: contain;
+}
+
+.feature-section .container .feature-list-container .card h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 10px 0;
+  text-align: center;
+  color: #18191f;
+}
+
+.feature-section .container .feature-list-container .card p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  text-align: center;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.feature-section .container .feature-list-container .one .img {
+  background: url("/images/hero/01.svg") no-repeat;
+}
+
+.feature-section .container .feature-list-container .two .img {
+  background: url("/images/hero/02.svg") no-repeat;
+}
+
+.feature-section .container .feature-list-container .third .img {
+  background: url("/images/hero/03.svg") no-repeat;
+}
+
+.feature-section .container .feature-list-container .four .img {
+  background: url("/images/hero/04.svg") no-repeat;
+}
+
+.feature-section .container .feature-list-container .five .img {
+  background: url("/images/hero/05.svg") no-repeat;
+}
+
+.feature-section .container .feature-list-container .six .img {
+  background: url("/images/hero/06.svg") no-repeat;
+}
+
+.testimonial-section .container {
+  padding: 112px 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d5fafc;
+}
+
+.testimonial-section .container .left-col {
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-section .container .left-col .qoute {
+  position: absolute;
+  top: -50px;
+  left: -90px;
+  opacity: 40%;
+  z-index: -5;
+  height: 120px;
+  width: 142px;
+  background: url("/images/Testimonial/qoute.svg");
+}
+
+.testimonial-section .container .left-col h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 64px;
+  color: #18191f;
+}
+
+.testimonial-section .container .left-col p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  margin: 15px 0;
+}
+
+.testimonial-section .container .left-col .img {
+  background: url("/images/Testimonial/t3.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 350px;
+  height: 468px;
+  margin-left: auto;
+}
+
+.testimonial-section .container .right-col .img-one {
+  background: url("/images/Testimonial/t1.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 445px;
+  height: 340px;
+  margin-top: 50px;
+}
+
+.testimonial-section .container .right-col .img-two {
+  background: url("/images/Testimonial/t2.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 350px;
+  height: 276px;
+  margin-top: 28px;
+}
+
+.stats-section .container {
+  padding: 112px 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stats-section .container h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.stats-section .container p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.stats-section .container .left-col {
+  width: 50%;
+}
+
+.stats-section .container .right-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+}
+
+.stats-section .container .right-col .card {
+  min-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats-section .container .right-col .card .text-numbers {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.stats-section .container .right-col .card .img {
+  width: 32px;
+  height: 32px;
+  margin: 0 15px;
+}
+
+.stats-section .container .right-col .one {
+  background: url("/images/Stats/01.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.stats-section .container .right-col .two {
+  background: url("/images/Stats/02.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.stats-section .container .right-col .three {
+  background: url("/images/Stats/03.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.stats-section .container .right-col .four {
+  background: url("/images/Stats/04.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.headline-section .container {
+  padding: 112px 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headline-section .container .left-col {
+  min-width: 540px;
+  height: 540px;
+  background-size: contain;
+  background-position: center;
+  background: url("/images/headline/PhoneMockup2.svg") no-repeat;
+}
+
+.headline-section .container .right-col {
+  margin-left: 78px;
+}
+
+.headline-section .container .right-col h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.headline-section .container .right-col p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.2;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  margin: 28px 0 25px 0;
+}
+
+.headline-section .container .right-col .start-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headline-section .container .right-col .start-btn a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #8c30f5;
+}
+
+.headline-section .container .right-col .start-btn .img {
+  height: auto;
+  width: 30px;
+  margin-left: 10px;
+  background-size: contain;
+  background-position: center;
+  background: url("/images/headline/right-arrow.png") no-repeat;
+}
+
+.footer-section .container {
+  padding: 57px 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #0b0d17;
+}
+
+.footer-section .container .left-col .logo {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 24px;
+  background-size: contain;
+  background-position: center;
+  background: url("/images/nav/logo.svg") no-repeat;
+}
+
+.footer-section .container .left-col .container-1 a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  margin-right: 24px;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  /* Default / White */
+  color: #ffffff;
+}
+
+.footer-section .container .left-col .container-2 {
+  margin: 12px 0 24px 0;
+}
+
+.footer-section .container .left-col .container-2 a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 24px;
+  line-height: 26px;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+}
+
+.footer-section .container .left-col .copy-right {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #d9dbe1;
+}
+
+.footer-section .container .right-col h6 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  -webkit-font-feature-settings: "salt" on, "liga" off;
+          font-feature-settings: "salt" on, "liga" off;
+  color: #d9dbe1;
+}
+
+.footer-section .container .right-col .img1 {
+  width: 133px;
+  height: 40px;
+  background: url("/images/nav/apple-download.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 16px 0;
+}
+
+.footer-section .container .right-col .img2 {
+  width: 133px;
+  height: 40px;
+  background: url("/images/nav/play-download.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
