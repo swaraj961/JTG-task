@@ -9,7 +9,7 @@
 * {
   box-sizing: border-box;
   font-family: "Rubik";
-  border: 1px solid;
+  // border: 1px solid;
   margin: 0;
   padding: 0;
 }
@@ -21,7 +21,8 @@ body {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 744px;
+  height: 734.8px;
+ 
 }
 
 /*------Navbar--------*/
@@ -127,13 +128,14 @@ body {
     padding: 112px 170px;
     position: relative;
     padding-right: 136px;
+    padding-bottom: 0px;
 
     .left-band {
       position: absolute;
       width: 395px;
       height: 116.52px;
       left: 0px;
-      top: 561px;
+      top: 548px;
       background: url("/images/hero/LeftBand1.svg") no-repeat;
       background-size: contain;
     }
@@ -142,7 +144,7 @@ body {
       width: 420px;
       height: 116.52px;
       left: 0px;
-      top: 636.8px;
+      top: 623.8px;
       background: url("/images/hero/LeftBand2.svg") no-repeat;
       background-size: contain;
     }
@@ -197,7 +199,7 @@ body {
       height: 116.52px;
       z-index: -2;
       right: 32px;
-      top: 374px;
+      top: 366px;
       background: url("/images/hero/RightBand1.svg") no-repeat;
       background-size: contain;
     }
@@ -207,7 +209,7 @@ body {
       z-index: -2;
       height: 140.81px;
       right: -8px;
-      top: 432px;
+      top: 425px;
 
       background: url("/images/hero/RightBand2.svg") no-repeat;
       background-size: contain;
@@ -217,19 +219,56 @@ body {
       width: 186px;
       height: 116.52px;
       right: -10px;
-      top: 465.49px;
+      top: 459.49px;
       z-index: -2;
       background: url("/images/hero/RightBand3.svg") no-repeat;
       background-size: contain;
     }
   }
 }
-
+/*--Crousel -section--*/
+.crousel-section{
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 30%;
+  margin-top: -20px;
+}
+.swiper-container {
+    width: 80%;
+    height: 100%;
+}
+.swiper-button-prev{
+    background: url('/images/Logo_Crousel/right_arrow.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.swiper-button-next{
+    background: url('/images/Logo_Crousel/left_arrow2.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
 /*-----feature-section--------*/
 
 .feature-section {
   .container {
-    padding: 112px 170px;
+    padding: 3px 170px;
     h1 {
       font-family: Inter;
       font-style: normal;
